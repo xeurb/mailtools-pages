@@ -1,0 +1,16 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>Privacy Policy — Nova Mail Tools</title><style>
+body{font-family:-apple-system,Segoe UI,Helvetica,Arial,sans-serif;max-width:680px;margin:40px auto;padding:0 20px;color:#24292f;line-height:1.6}
+h1{font-size:1.6em;border-bottom:1px solid #d0d7de;padding-bottom:.3em}
+a{color:#0969da}
+footer{margin-top:3em;font-size:.85em;color:#57606a;border-top:1px solid #d0d7de;padding-top:1em}
+</style></head>
+<body>
+<h1>Privacy Policy</h1>
+<p><strong>Scope.</strong> Nova Mail Tools is a personal automation project used solely by its operator on the operator's own Gmail accounts. It is not a public service and has no other users.</p>
+<p><strong>What data is accessed.</strong> Via the Gmail API: message headers and metadata (sender, subject, dates, unsubscribe headers) and, where needed for classification, message bodies. Scopes requested are limited to Gmail read/modify/send, Calendar, Drive, Sheets, Docs, and contacts-readonly as required by the operator's workflows.</p>
+<p><strong>Where data goes.</strong> All processed data stays on the operator's own private server. Derived indexes (sender tallies, categorized message metadata) are stored locally in SQLite files. No data is sold, shared, rented, or transmitted to any third party. No analytics, tracking pixels, or advertising technologies are used.</p>
+<p><strong>Retention.</strong> Index records are retained locally to support deduplication and reporting. The operator may delete the local database at any time; deleting the project removes all derived data. Original mail remains in the operator's Gmail accounts.</p>
+<p><strong>Security.</strong> OAuth tokens are stored encrypted at rest on the operator's server with filesystem permissions restricted to the operator account. Access is limited to the operator's own machines on a private network.</p>
+<p><strong>Contact.</strong> Questions: the operator, via GitHub (EntangledQuantum).</p>
+<footer>Last updated: October 12, 2026</footer>
+</body></html>
